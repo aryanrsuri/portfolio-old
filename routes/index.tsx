@@ -11,7 +11,7 @@ export default function Home() {
     <main
       class={tw`p-4 sm:text-lg text-[#1e242e] flex flex-col gap-10 max-w-2xl mx-auto cursor-pointer h-full overflow-y-hidden text-sm`}
     >
-      <div class={tw`flex flex-col content-start mt-24 leading-tight`}>
+      <div class={tw`flex flex-col content-start mt-8 sm:mt-24 leading-tight`}>
         <h1 class={tw`text-4xl sm:text-6xl text-zinc-900 font-bold`}>
           Hello, I'm Aryan.
         </h1>
