@@ -10,7 +10,7 @@ export function Honors(props: h.JSX.HTMLAttributes<HTMLDivElement>) {
         <dl class={tw`text-md font-bold`}>
           <dt>
             <p class={tw`text-[#1e242e]`}>
-              → UC Davis Chemical Engineering Best Student Design Award <b>June 2022</b>
+              → **UC Davis Chemical Engineering Best Student Design Award <b>June 2022</b>
             </p>
           </dt>
           <dt>

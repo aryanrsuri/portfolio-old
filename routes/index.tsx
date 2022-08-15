@@ -4,6 +4,7 @@ import { tw } from "@twind";
 import { Projects } from "../components/Projects.tsx";
 import { Experience } from "../components/Experience.tsx";
 import { Honors } from "../components/Honors.tsx";
+import { Links } from "../components/Links.tsx";
 export default function Home() {
   return (
     <main
@@ -13,12 +14,13 @@ export default function Home() {
         <h1 class={tw`text-6xl text-[#24292f] font-bold`}>Hello, I'm Aryan.</h1>
         <p class={tw`font-semibold`}>
           As an engineer, I like to <span class={tw`line-through`}> break </span>
-          make things.
+          make things. <a class={tw`hover:opacity-80 text-[#92400e]`} href="/evidence"> skills.</a>
         </p>
       </div>
       <Projects />
       <Experience />
       <Honors />
+      <Links />
     </main>
   );
 }
