@@ -5,7 +5,7 @@ import { tw } from "@twind";
 
 export function Links(props: h.JSX.HTMLAttributes<HTMLDivElement>) {
     return (
-        <div class={tw`flex flex-col leading-tight`}>
+        <div class={tw`flex flex-col w-full leading-tight`}>
         <h2 class={tw`underline text-2xl font-bold`}>Links</h2>
         <dl class={tw`text-md font-bold`}>
           <dt class={tw``}>

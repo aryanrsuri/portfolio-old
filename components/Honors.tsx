@@ -7,7 +7,7 @@ export function Honors(props: h.JSX.HTMLAttributes<HTMLDivElement>) {
     return (
         <div class={tw`flex flex-col leading-tight`}>
         <h2 class={tw`underline text-2xl font-bold`}>Honors & Awards</h2>
-        <dl class={tw`text-md font-bold`}>
+        <dl class={tw`font-semibold`}>
           <dt>
             <p class={tw`text-[#1e242e]`}>
               → **UC Davis Chemical Engineering Best Student Design Award <b>June 2022</b>

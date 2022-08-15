@@ -11,20 +11,20 @@ export function Experience(props: h.JSX.HTMLAttributes<HTMLDivElement>) {
       <dt class={tw``}>
         <a
           class={tw`hover:opacity-80 text-[#92400e]`}
-          href="https://github.com/aryanrsuri/auth"
+          href="https://github.com/aryanrsuri/Libretext"
         >
           → Libretexts — Front End Developer
         </a>
       </dt>
       <dt class={tw``}>
-        <a class={tw`hover:opacity-80 text-[#92400e]`} href="/">
+        <p class={tw`text-[#92400e]`}>
           → Sacramento State ATS — Teaching Assistant 
-        </a>
+        </p>
       </dt>
       <dt class={tw``}>
         <p
-          class={tw`hover:opacity-80 text-[#92400e]`}
-          href="https://github.com/aryanrsuri/wordle"
+          class={tw`text-[#92400e]`}
+          
         >
           → Granite Bay Robotics 295 — Software and Mechanical Lead 
         </p>

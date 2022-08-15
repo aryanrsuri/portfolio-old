@@ -38,7 +38,7 @@ export function Projects(props: h.JSX.HTMLAttributes<HTMLDivElement>) {
           </a>
         </dt>
         <dt class={tw``}>
-          <a class={tw`hover:opacity-80 text-[#92400e]`} href="">
+          <a class={tw`hover:opacity-80 text-[#92400e]`} href="https://ucdavis.box.com/s/1k60w49ihhail54q3xznsmckwo7c5rx8">
             → Senior Design Project**
           </a>
         </dt>
