@@ -1,0 +1,41 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --gray: #666666;
+    --very-light-gray: #bbb;
+    --purple: #705dcb;
+    --teal: #4ca2bd;
+    --green: #065f46;
+    --burnt-orange: #92400e;
+    --less-burnt-orange: #bf4040;
+    --faded-yellow: #fdf9d3;
+    --faded-green: #e4ffee;
+    --faded-purple: #eff2ff;
+    --faded-red: #f8e8e5;
+    --faded-blue: #eff7fa;
+    --faded-darker-purple: #eaedf9;
+    --editor-bg-light: #1e242e;
+    --editor-bg-dark: #151a21;
+    --shadow: #999;
+    --animation-timing: cubic-bezier(0.8, 0, 0.2, 1);
+    
+    --color-prettylights-syntax-comment: #6e7781;
+    --color-prettylights-syntax-constant: #0550ae;
+    --color-prettylights-syntax-entity: #8250df;
+    --color-prettylights-syntax-storage-modifier-import: #24292f;
+    --color-prettylights-syntax-entity-tag: #116329;
+    --color-prettylights-syntax-keyword: #cf222e;
+    --color-prettylights-syntax-string: #0a3069;
+    --color-prettylights-syntax-variable: #953800;
+    --color-prettylights-syntax-string-regexp: #116329;
+    --color-prettylights-syntax-constant-other-reference-link: #0a3069;
+    --color-fg-default: #24292f;
+    --color-fg-muted: #57606a;
+    --color-canvas-subtle: #f6f8fa;
+    --color-border-default: #d0d7de;
+    --color-border-muted: #d8dee4;
+    --color-neutral-muted: rgba(175,184,193,.2);
+    --color-accent-fg: #0969da;
+    --color-accent-emphasis: #0969da;
+    --color-danger-fg: #cf222e;
+  }
