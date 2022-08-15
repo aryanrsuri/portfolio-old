@@ -9,10 +9,10 @@ import { Education } from "../components/Education.tsx";
 export default function Home() {
   return (
     <main
-      class={tw`text-lg text-[#24292f] flex flex-col gap-10 max-w-2xl mx-auto cursor-pointer h-full overflow-y-hidden`} 
+      class={tw`p-4 sm:text-lg text-[#24292f] flex flex-col gap-10 max-w-2xl mx-auto cursor-pointer h-full overflow-y-hidden text-sm`} 
     >
       <div class={tw`flex flex-col content-start mt-24`}>
-        <h1 class={tw`text-6xl text-[#24292f] font-bold`}>Hello, I'm Aryan.</h1>
+        <h1 class={tw`text-4xl sm:text-6xl text-[#24292f] font-bold`}>Hello, I'm Aryan.</h1>
       <Education /> 
         {/* <p class={tw`font-semibold text-base`}>
           As an engineer, I like to <span class={tw`line-through`}> break </span>
