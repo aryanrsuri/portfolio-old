@@ -17,13 +17,13 @@ export function Experience(props: h.JSX.HTMLAttributes<HTMLDivElement>) {
         </a>
       </dt>
       <dt class={tw``}>
-        <p class={tw`text-[#92400e]`}>
+        <p class={tw``}>
           → Sacramento State ATS — Teaching Assistant 
         </p>
       </dt>
       <dt class={tw``}>
         <p
-          class={tw`text-[#92400e]`}
+          class={tw``}
           
         >
           → Granite Bay Robotics 295 — Software and Mechanical Lead 
