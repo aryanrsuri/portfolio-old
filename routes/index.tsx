@@ -9,24 +9,18 @@ import { Education } from "../components/Education.tsx";
 export default function Home() {
   return (
     <main
-      class={tw`p-4 sm:text-lg text-[#24292f] flex flex-col gap-10 max-w-2xl mx-auto cursor-pointer h-full overflow-y-hidden text-sm`} 
+      class={tw`p-4 sm:text-lg text-[#1e242e] flex flex-col gap-10 max-w-2xl mx-auto cursor-pointer h-full overflow-y-hidden text-sm`}
     >
-      <div class={tw`flex flex-col content-start mt-24`}>
-        <h1 class={tw`text-4xl sm:text-6xl text-[#24292f] font-bold`}>Hello, I'm Aryan.</h1>
-      <Education /> 
-        {/* <p class={tw`font-semibold text-base`}>
-          As an engineer, I like to <span class={tw`line-through`}> break </span>
-          make things. <a class={tw`hover:opacity-80 text-[#92400e]`} href="/evidence"> skills.</a>
-        </p> */}
+      <div class={tw`flex flex-col content-start mt-24 leading-tight`}>
+        <h1 class={tw`text-4xl sm:text-6xl text-zinc-900 font-bold`}>
+          Hello, I'm Aryan.
+        </h1>
+        <Education />
       </div>
       <Projects />
       <Experience />
       <Honors />
-      <footer class={tw`flex flex-row`}>
-        
-        <Links />
-      </footer>
+      <Links />
     </main>
-      
   );
 }
