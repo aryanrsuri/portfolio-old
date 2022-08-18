@@ -6,10 +6,10 @@ export default function Evidence() {
   return (
     <div class={tw`flex flex-col gap-4`}>
       <p class={tw`text-lg text-[#cf222e]`}>
-        <b>Chemical engineering skills</b>: Process Control and Dynamics,
-        Techno-Economic analysis, ASPEN Plus, SuperPro design, Kinetics, Heat &
-        Mass transfer, Calculus. <b>Software Engineering skills</b>: Python,
-        Typescript, Deno, NodeJS, Fullstack dev.
+        <b>Software Engineering skills</b>: Python, Typescript, Node, React,
+        Deno Fullstack dev. <b>Chemical engineering skills</b>: Process Control
+        and Dynamics, Techno-Economic analysis, ASPEN Plus, SuperPro design,
+        Kinetics, Heat & Mass transfer, Calculus.
       </p>
 
       <div>
